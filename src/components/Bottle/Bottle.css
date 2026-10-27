@@ -1,0 +1,35 @@
+.bottle{
+  border: 2px solid seagreen;
+  padding: 15px;
+  margin: 15px;
+  border-radius: 15px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  /* 1. Smooth animation er jonno transition transition */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+/* 2. Hover Effect */
+.bottle:hover {
+  transform: translateY(-8px); /* Card ti 8px upore uthe asbe */
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15); /* Hover e shadow barle upore uthar effect ta real lage */
+  cursor: pointer;
+}
+
+
+.bottle img{
+  width: 250px;
+  height: 250px;
+  border-radius: 20px;
+}
+button{
+  background-color: seagreen;
+  padding: 10px 20px;
+  color: white;
+  font: 900;
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+

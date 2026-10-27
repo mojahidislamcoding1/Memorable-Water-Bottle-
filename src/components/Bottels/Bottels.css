@@ -1,0 +1,13 @@
+.bottle-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+/* Mobile Device Style */
+@media (max-width: 768px) {
+  .bottle-container {
+    grid-template-columns: 1fr; /* Stacks items into a single column */
+    gap: 15px;                  /* Optional: slightly increases spacing for better mobile tapping */
+  }
+}
